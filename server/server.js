@@ -28,10 +28,10 @@ const api = require("./api");
 // Server configuration below
 // TODO change connection URL after setting up your own database
 const mongoConnectionURL =
-  "mongodb+srv://weblab:jAT4po55IAgYWQgR@catbook-ylndp.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://captain:<password>@cluster0.yvprc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 // TODO change database name to the name you chose
 const databaseName = "catbook";
-const options = { useNewUrlParser: true, useUnifiedTopology: true, dbName: databaseName};
+const options = { useNewUrlParser: true, useUnifiedTopology: true, dbName: databaseName };
 
 // connect to mongodb
 mongoose
